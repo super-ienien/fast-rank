@@ -1,7 +1,11 @@
-# Percent-round
-### Take an array of numeric values and return an array with corresponding rounded percentages 
+# Fast Rank
+### Take an array of weights and an array of datas and returns a mark
+
+Note that for performance purpose no verification is done on arguments. You must provide arrays of numbers and arrays that have the same length.
 
 ```javascript
-var percentRound = require ('percent-round');
-percentRound([10, 20, 70, 90]); // [5, 11, 37, 47]
+var fastRank = require ('fast-rank');
+fastRank([0, 1, 2, 3], [3004, 14298, 1781, 6361]); // {mark: 1.45, total: 25444}
+fastRank.total([3004, 14298, 1781, 6361]); //25444
+fastRank.mark(([0, 1, 2, 3], [3004, 14298, 1781, 6361]); //1.45
 ```

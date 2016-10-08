@@ -1,23 +1,18 @@
 {
-  "name": "percent-round",
-  "description": "Calculate percentages from a list of values.",
+  "name": "fast-rank",
+  "description": "Simple ranking processing",
   "main": "index.js",
   "authors": [
     "Vivien Anglesio"
   ],
   "license": "MIT",
   "keywords": [
-    "percent",
-    "percentage",
-    "round",
-    "rounded",
-    "rounding",
-    "calculate",
-    "always",
-    "100",
-    "sum"
+    "marks",
+    "rank",
+    "simple",
+    "factor"
   ],
-  "homepage": "https://github.com/super-ienien/percent-round",
+  "homepage": "https://github.com/super-ienien/fast-rank",
   "ignore": [
     "**/.*",
     "node_modules",
